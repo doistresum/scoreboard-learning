@@ -52,12 +52,12 @@ function reset(){
 function winningTeam() {
     if (countHome > countGuest) {
         elHome.innerHTML = "<strong>HOME</strong>"
-        elGuest.innerHTML = "GUEST"
+        elGuest.innerHTML = "AWAY"
     } else if (countGuest > countHome) {
         elHome.innerHTML = "HOME"
-        elGuest.innerHTML = "<strong>GUEST</strong>"
+        elGuest.innerHTML = "<strong>AWAY</strong>"
     } else {
         elHome.innerHTML = "HOME"
-        elGuest.innerHTML = "GUEST"
+        elGuest.innerHTML = "AWAY"
     }
 }
