@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background : navy
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+strong {
+    color: white;
+}
